@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dominant Colors -->
+    <color name="colorPrimary">#2196F3</color> <!-- Material blue 500 -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- Material blue 700 -->
+    <color name="colorPrimaryLight">#BBDEFB</color> <!-- Material blue 100 -->
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#FFC107</color> <!-- Material amber 500 -->
+    <color name="colorSecondaryDark">#FFA000</color> <!-- Material amber 700 -->
+    <color name="colorSecondaryLight">#FFECB3</color> <!-- Material amber 100 -->
+
+    <!-- Accent Colors -->
+    <color name="colorAccent">#4CAF50</color> <!-- Material green 500 -->
+    <color name="colorAccentDark">#388E3C</color> <!-- Material green 700 -->
+    <color name="colorAccentLight">#C8E6C9</color> <!-- Material green 100 -->
+
+    <!-- Additional Colors -->
+    <color name="colorRed">#F44336</color> <!-- Material red 500 -->
+    <color name="colorPink">#E91E63</color> <!-- Material pink 500 -->
+    <color name="colorPurple">#9C27B0</color> <!-- Material purple 500 -->
+    <color name="colorDeepPurple">#673AB7</color> <!-- Material deep purple 500 -->
+    <color name="colorIndigo">#3F51B5</color> <!-- Material indigo 500 -->
+    <color name="colorBlue">#2196F3</color> <!-- Material blue 500 -->
+    <color name="colorLightBlue">#03A9F4</color> <!-- Material light blue 500 -->
+    <color name="colorCyan">#00BCD4</color> <!-- Material cyan 500 -->
+    <color name="colorTeal">#009688</color> <!-- Material teal 500 -->
+    <color name="colorGreen">#4CAF50</color> <!-- Material green 500 -->
+    <color name="colorLightGreen">#8BC34A</color> <!-- Material light green 500 -->
+    <color name="colorLime">#CDDC39</color> <!-- Material lime 500 -->
+    <color name="colorYellow">#FFEB3B</color> <!-- Material yellow 500 -->
+    <color name="colorAmber">#FFC107</color> <!-- Material amber 500 -->
+    <color name="colorOrange">#FF9800</color> <!-- Material orange 500 -->
+    <color name="colorDeepOrange">#FF5722</color> <!-- Material deep orange 500 -->
+    <color name="colorBrown">#795548</color> <!-- Material brown 500 -->
+    <color name="colorGray">#9E9E9E</color> <!-- Material gray 500 -->
+    <color name="colorBlueGray">#607D8B</color> <!-- Material blue gray 500 -->
+</resources>

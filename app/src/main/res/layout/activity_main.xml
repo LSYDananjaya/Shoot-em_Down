@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
+
+    <!-- Content Views -->
+
+    <ImageView
+        android:id="@+id/Game_name"
+        android:layout_width="330dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="41dp"
+        app:layout_constraintEnd_toEndOf="@+id/background_image"
+        app:layout_constraintStart_toStartOf="@+id/background_image"
+        app:layout_constraintTop_toTopOf="@+id/background_image"
+        app:srcCompat="@drawable/shd" />
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="194dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background_image"
+        app:layout_constraintEnd_toEndOf="@+id/background_image"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/background_image"
+        app:layout_constraintTop_toBottomOf="@+id/Game_name"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/score_button"
+        android:layout_width="210dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="591dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_image"
+        app:layout_constraintTop_toTopOf="@+id/background_image"
+        app:layout_constraintVertical_bias="0.981"
+        app:srcCompat="@drawable/score" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

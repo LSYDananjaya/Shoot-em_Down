@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
+    tools:context=".leaderboard">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="344dp"
+        android:layout_height="666dp"
+        android:background="@color/material_dynamic_primary30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <View
+        android:id="@+id/third"
+        android:layout_width="325dp"
+        android:layout_height="93dp"
+        android:background="@color/colorIndigo"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <View
+        android:id="@+id/second"
+        android:layout_width="325dp"
+        android:layout_height="93dp"
+        android:background="@color/design_default_color_secondary_variant"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/score" />
+
+    <View
+        android:id="@+id/first"
+        android:layout_width="325dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorDeepPurple"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/exit_button"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@color/colorRed"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/third"
+        app:srcCompat="@drawable/baseline_exit_to_app_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/first"
+        app:layout_constraintEnd_toEndOf="@+id/first"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/first"
+        app:layout_constraintTop_toTopOf="@+id/first"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/score1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/third"
+        app:layout_constraintEnd_toEndOf="@+id/third"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/third"
+        app:layout_constraintTop_toTopOf="@+id/third"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/score3" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/third"
+        app:layout_constraintEnd_toEndOf="@+id/second"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/second"
+        app:layout_constraintTop_toBottomOf="@+id/first"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/score2" />
+
+    <TextView
+        android:id="@+id/score1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="TextView"
+        android:textColor="#FFA500"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/first"
+        app:layout_constraintEnd_toEndOf="@+id/first"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toStartOf="@+id/first"
+        app:layout_constraintTop_toTopOf="@+id/first"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/score3_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="TextView"
+        android:textColor="#FFD700"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/third"
+        app:layout_constraintEnd_toEndOf="@+id/third"
+        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintStart_toStartOf="@+id/third"
+        app:layout_constraintTop_toTopOf="@+id/third" />
+
+    <TextView
+        android:id="@+id/score2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="347dp"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="TextView"
+        android:textColor="#FFA500"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/second"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="@+id/second"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.73" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
